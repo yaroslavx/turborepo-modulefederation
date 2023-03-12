@@ -6,8 +6,8 @@ import { PlaylistContent } from "playlist-content";
 export const App = () => {
   return (
     <AppShell
-      title="Movies"
-      colorScheme="dark"
+      title="Playlist"
+      colorScheme="light"
       routes={[
         {
           path: "/",

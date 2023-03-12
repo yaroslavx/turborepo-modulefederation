@@ -13,6 +13,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,6 +45,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/playlist-content" />
+      <recent name="$PROJECT_DIR$/packages/movies-content" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -52,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678609621797</updated>
       <workItem from="1678609622968" duration="2350000" />
-      <workItem from="1678612072099" duration="8712000" />
+      <workItem from="1678612072099" duration="10305000" />
     </task>
     <servers />
   </component>
