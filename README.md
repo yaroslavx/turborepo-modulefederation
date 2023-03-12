@@ -1,10 +1,10 @@
 # Turborepo starter
 
-This is an official pnpm starter turborepo.
+This is an official npm starter turborepo.
 
 ## What's inside?
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
+This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages/apps:
 
 ### Apps and Packages
 
@@ -30,7 +30,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm run build
+npm run build
 ```
 
 ### Develop
@@ -39,7 +39,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm run dev
+npm run dev
 ```
 
 ### Remote Caching
@@ -50,7 +50,7 @@ By default, Turborepo will cache locally. To enable Remote Caching you will need
 
 ```
 cd my-turborepo
-pnpm dlx turbo login
+npx turbo login
 ```
 
 This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
@@ -58,7 +58,7 @@ This will authenticate the Turborepo CLI with your [Vercel account](https://verc
 Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
 
 ```
-pnpm dlx turbo link
+npx turbo link
 ```
 
 ## Useful Links
