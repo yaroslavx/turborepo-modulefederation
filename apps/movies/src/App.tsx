@@ -11,11 +11,11 @@ export const App = () => {
       routes={[
         {
           path: "/",
-          element: <MoviesContent />,
+          element: MoviesContent,
         },
         {
           path: "/playlist",
-          element: <PlaylistContent />,
+          element: PlaylistContent,
         },
       ]}
       navLinks={[

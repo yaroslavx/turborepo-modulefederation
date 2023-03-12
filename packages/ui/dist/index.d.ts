@@ -1,7 +1,7 @@
 import { Route } from "react-router-dom";
-import { ReactElement } from "react";
+import { FC } from "react";
 export type Route = {
-    element: ReactElement;
+    element: FC;
     path: string;
 };
 export type NavLink = {

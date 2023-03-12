@@ -29,5 +29,5 @@ export const AppShell = ({ title, routes, navLinks, colorScheme, }) => {
                                 ? theme.colors.dark[8]
                                 : theme.colors.gray[0],
                         },
-                    }) }, { children: [_jsx(Title, Object.assign({ sx: { flexGrow: 1 } }, { children: title })), _jsxs(Text, Object.assign({ size: "xl" }, { children: [movies.length, " selected"] }))] })) }, { children: [_jsx(Routes, { children: routes.map((route) => (_jsx(Route, { path: route.path, element: route.element }, route.path))) }), _jsx(Outlet, {})] })) })) }));
+                    }) }, { children: [_jsx(Title, Object.assign({ sx: { flexGrow: 1 } }, { children: title })), _jsxs(Text, Object.assign({ size: "xl" }, { children: [movies.length, " selected"] }))] })) }, { children: [_jsx(Routes, { children: routes.map((route) => (_jsx(Route, { path: route.path, element: _jsx(route.element, {}) }, route.path))) }), _jsx(Outlet, {})] })) })) }));
 };

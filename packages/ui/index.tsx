@@ -10,11 +10,11 @@ import {
   Group,
   Text,
 } from "@mantine/core";
-import { FC, ReactElement } from "react";
+import { ElementType, FC, JSXElementConstructor, ReactElement } from "react";
 import { useStore } from "store";
 
 export type Route = {
-  element: ReactElement;
+  element: FC;
   path: string;
 };
 
@@ -106,7 +106,7 @@ export const AppShell = ({
               <Route
                 key={route.path}
                 path={route.path}
-                element={route.element}
+                element={<route.element />}
               />
             ))}
           </Routes>

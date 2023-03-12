@@ -42,7 +42,7 @@ const movies = [
       "https://www.themoviedb.org/t/p/w440_and_h660_face/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
   },
 ];
-export const MoviesContent = () => {
+const MoviesContent = () => {
   return (
     <>
       <Title>Movies</Title>
@@ -58,3 +58,5 @@ export const MoviesContent = () => {
     </>
   );
 };
+
+export default MoviesContent;
