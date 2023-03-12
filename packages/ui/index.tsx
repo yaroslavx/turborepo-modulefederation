@@ -20,6 +20,14 @@ export const AppShell = ({ title }: { title: string }) => {
           sx={{
             display: "flex",
           }}
+          styles={(theme) => ({
+            main: {
+              backgroundColor:
+                theme.colorScheme === "dark"
+                  ? theme.colors.dark[8]
+                  : theme.colors.gray[0],
+            },
+          })}
         >
           <Title>{title}</Title>
         </Header>

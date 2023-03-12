@@ -1,3 +1,5 @@
-import { FC } from "react";
-export declare const AppShell: FC;
+/// <reference types="react" />
+export declare const AppShell: ({ title }: {
+    title: string;
+}) => JSX.Element;
 //# sourceMappingURL=index.d.ts.map
