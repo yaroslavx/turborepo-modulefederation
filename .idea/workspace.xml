@@ -34,7 +34,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/yaroslav/Projects/microfrontends/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/yaroslav/Projects/microfrontends/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678609621797</updated>
       <workItem from="1678609622968" duration="2350000" />
-      <workItem from="1678612072099" duration="4724000" />
+      <workItem from="1678612072099" duration="5911000" />
     </task>
     <servers />
   </component>
