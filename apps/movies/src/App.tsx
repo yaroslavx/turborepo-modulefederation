@@ -1,5 +1,6 @@
 import React from "react";
 import { AppShell } from "ui";
+import { MoviesContent } from "./MoviesContent";
 
 export const App = () => {
   return (
@@ -9,11 +10,11 @@ export const App = () => {
       routes={[
         {
           path: "/",
-          element: () => <div>Home</div>,
+          element: <MoviesContent />,
         },
         {
           path: "/playlist",
-          element: () => <div>Playlist</div>,
+          element: <MoviesContent />,
         },
       ]}
       navLinks={[

@@ -10,10 +10,11 @@ import {
   Group,
   Text,
 } from "@mantine/core";
-import { FC } from "react";
+import { FC, ReactElement } from "react";
+import { useStore } from "store";
 
 export type Route = {
-  element: FC;
+  element: ReactElement;
   path: string;
 };
 
@@ -22,7 +23,7 @@ export type NavLink = {
   path: string;
 };
 
-function MainLink({ label, path }: NavLink) {
+const MainLink = ({ label, path }: NavLink) => {
   return (
     <Link to={path}>
       <UnstyledButton
@@ -47,7 +48,7 @@ function MainLink({ label, path }: NavLink) {
       </UnstyledButton>
     </Link>
   );
-}
+};
 
 export const AppShell = ({
   title,
@@ -60,6 +61,7 @@ export const AppShell = ({
   navLinks: NavLink[];
   colorScheme?: "light" | "dark";
 }) => {
+  const { movies } = useStore();
   return (
     <BrowserRouter>
       <MantineProvider
@@ -94,7 +96,8 @@ export const AppShell = ({
                 },
               })}
             >
-              <Title>{title}</Title>
+              <Title sx={{ flexGrow: 1 }}>{title}</Title>
+              <Text size="xl">{movies.length} selected</Text>
             </Header>
           }
         >
@@ -103,7 +106,7 @@ export const AppShell = ({
               <Route
                 key={route.path}
                 path={route.path}
-                element={<route.element />}
+                element={route.element}
               />
             ))}
           </Routes>
