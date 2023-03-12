@@ -4,8 +4,18 @@
   "extends": "./base.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "lib": ["ES2015"],
     "module": "ESNext",
-    "target": "es6"
+    "declaration": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "lib": [
+      "ES2015",
+      "es6",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   }
 }
