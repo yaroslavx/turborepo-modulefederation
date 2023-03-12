@@ -45,6 +45,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/movies/src" />
       <recent name="$PROJECT_DIR$/packages/playlist-content" />
       <recent name="$PROJECT_DIR$/packages/movies-content" />
       <recent name="$PROJECT_DIR$" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678609621797</updated>
       <workItem from="1678609622968" duration="2350000" />
-      <workItem from="1678612072099" duration="10305000" />
+      <workItem from="1678612072099" duration="12992000" />
     </task>
     <servers />
   </component>
